@@ -1,0 +1,22 @@
+{
+  "name": "swagger-ui",
+  "version": "1.0.0",
+  "description": "Swagger UI beginning",
+  "main": "swagger_start.js",
+  "scripts": {
+    "test": "swagger_start.js",
+    "start": "nodemon swagger_start.js"
+  },
+  "author": "Anmol",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "json": "^11.0.0",
+    "lowdb": "^2.1.0",
+    "morgan": "^1.10.0",
+    "nanoid": "^3.1.23",
+    "swagger-jsdoc": "^7.0.0-rc.6",
+    "swagger-ui-express": "^4.1.6"
+  }
+}

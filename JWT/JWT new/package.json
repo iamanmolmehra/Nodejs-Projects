@@ -1,0 +1,24 @@
+{
+  "name": "jst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jwt_start.js",
+  "scripts": {
+    "test": "jwt_start.js",
+    "start": "nodemon jwt_start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "anjali": "^1.0.0",
+    "anmol": "^2.1.1",
+    "bcrypt": "^5.0.1",
+    "deepak": "^0.1.2",
+    "express": "^4.17.1",
+    "hb": "0.0.0",
+    "hbs": "^4.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.12"
+  }
+}

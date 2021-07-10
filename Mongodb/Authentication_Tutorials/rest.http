@@ -1,0 +1,13 @@
+GET http://localhost/3001
+
+# login route
+POST http://localhost/3001/auth/login
+
+# register route
+POST http://localhost:3001/auth/register
+
+# refresh token route
+POST http://localhost/3001/auth/refresh-token
+
+# logout token route
+DELETE   http://localhost/3001/auth/logout

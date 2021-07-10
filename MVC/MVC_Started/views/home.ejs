@@ -1,0 +1,74 @@
+<html lang="en">  
+ <head>  
+     <meta charset="UTF-8">  
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+     <title>Document</title>  
+ </head>  
+ <body>  
+        <h4>AddNewUser</h4>  
+        <form action="/user/add" method="POST" >  
+     <table>  
+         
+            <tr>  
+                <td>  
+                        <input type="text" name="firstname" placeholder="firstname">  
+                </td>  
+                <td>  
+                        <input type="text" name="lastname" placeholder="lastname">  
+                </td>  
+                <td>  
+                        <input type="text" name="city" placeholder="city">  
+                </td>  
+                <td>  
+                        <input type="text" name="state" placeholder="state">  
+                </td>  
+                 <td>  
+                        <input type="text" name="country" placeholder="country">  
+                 </td>  
+                 <td>  
+                        <input type="submit" value="add"><br>  
+                 </td>  
+  
+            </tr>  
+        
+    </table>  
+</form>  
+    <br>  
+    <% if (data.length > 0) {%>  
+    <h2>AllUser</h2>  
+    <table border="1" style="text-align: center;font-family: 'Courier New', Courier, monospace;font: 600;">  
+        <thead>  
+            <tr>  
+                <th>  
+                    firstname  
+                </th>  
+                <th>  
+                    lastname  
+                </th>  
+                <th>  
+                    city  
+                </th>  
+                <th>  
+                    state  
+                </th>  
+                <th>  
+                    country  
+                </th>  
+            </tr>  
+        </thead>  
+        <tbody>  
+            <% for(var i=0; i < data.length; i++) {%>  
+            <tr>  
+             <td><%= data[i].firstname%></td>  
+             <td><%= data[i].lastname%></td>  
+             <td><%= data[i].city%></td>  
+             <td><%= data[i].state%></td>  
+             <td><%= data[i].country%></td>  
+            </tr>  
+            <% } %>  
+        </tbody>  
+    </table>  
+    <% } %>  
+ </body>  
+ </html>

@@ -1,0 +1,17 @@
+{
+  "name": "swagger-document",
+  "version": "1.0.0",
+  "description": "Swagger beginning",
+  "main": "swagger_official.js",
+  "scripts": {
+    "test": "swagger_official.js",
+    "start": "nodemon swagger_official.js"
+  },
+  "author": "Anmol",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-ui": "^3.49.0",
+    "swagger-ui-dist": "^3.49.0"
+  }
+}

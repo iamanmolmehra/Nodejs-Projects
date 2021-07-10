@@ -1,0 +1,21 @@
+{
+  "name": "joi-validation",
+  "version": "1.0.0",
+  "description": "joi-validation",
+  "main": "validation_schema.js",
+  "scripts": {
+    "test": "app_vschema.js",
+    "start": "nodemon app_vschema.js"
+  },
+  "author": "anmol",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "mongoose": "^5.12.11",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}

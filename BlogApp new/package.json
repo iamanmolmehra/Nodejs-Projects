@@ -1,0 +1,23 @@
+{
+  "name": "BlogApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "app.js",
+    "start" : "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Anmol",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.6",
+    "nodemon": "^2.0.7"
+  }
+}
